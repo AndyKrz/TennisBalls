@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TennisBallsApp</string>
+    <string name="title_home">Tennis Ball App</string>
+    <string name="title_dashboard">Ranking</string>
+    <string name="title_notifications">Ulubione</string>
+    <string name="title_company">Company</string>
+    <string name="title_Dunlop">Dunlop</string>
+    <string name="title_Wilson">Wilson</string>
+    <string name="title_Slazenger">Slazenger</string>
+    <string name="title_Tecnifibre">Tecnifibre</string>
+    <string name="title_Tretorn">Tretorn</string>
+    <string name="title_Babolat">Babolat</string>
+    <string name="title_Robin_Soderling">Robin Soderling</string>
+    <string name="title_Head">Head</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="dunlop_atp"> &lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/dunlop/dunlop-atp-4b-30040?c=2365">Dunlop ATP&lt;/a> </string>
+    <string name="dunlop_tour_performance">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/dunlop/dunlop-tour-performance-4b-1889?c=2365">Dunlop Tour Performance&lt;/a></string>
+    <string name="dunlop_fort_clay"> &lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/dunlop/dunlop-fort-clay-court-4b-1882?c=2365">Dunlop Fort Clay&lt;/a> </string>
+    <string name="dunlop_ao">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/dunlop/dunlop-australian-open-special-offer-2-x-4b-27923?c=2365">Dunlop AO&lt;/a></string>
+    <string name="dunlop_fort">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/dunlop/dunlop-fort-all-court-tournament-select-new-4b-30076?c=2365">Dunlop Fort&lt;/a></string>
+
+
+    <string name="babolat_team_clay">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/babolat/babolat-team-clay-4b-35087?c=2364">Babolat Team Clay&lt;/a></string>
+    <string name="babolat_gold">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/babolat/babolat-gold-high-altitude-3b-1866?c=2364">Babolat Gold&lt;/a></string>
+
+    <string name="babolat_roland_garros">&lt;a href="http://www.strefatenisa.com.pl">Babolat Roland Garros&lt;/a></string>
+    <string name="babolat_team_all_court">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/babolat/babolat-team-all-court-4b-35106?c=2364">Babolat Team All Court&lt;/a></string>
+
+    <string name="head_team">&lt;a href="http://www.strefatenisa.com.pl">Head Team&lt;/a></string>
+    <string name="head_tour">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/head/head-tour-4b-28803?c=2366">Head Tour&lt;/a></string>
+    <string name="head_championship">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/head/head-championship-4b-1904?c=2366">Head Championship&lt;/a></string>
+    <string name="head_pro">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/head/head-pro-4b-1910?c=2366">Head Pro&lt;/a></string>
+    <string name="robin_soderling_club_edition">&lt;a href="http://www.strefatenisa.com.pl">Robin Soderling Club Edition&lt;/a></string>
+    <string name="slazenger_wimbledon">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/slazenger/slazenger-the-wimbledon-ball-4b-21765">Slazenger Wimbledon&lt;/a></string>
+    <string name="tecnifibre_xld">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/tecnifibre/tecnifibre-xld-4b-1975?c=2372">Tecnifibre XLD&lt;/a></string>
+    <string name="tecnifibre_champion">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/tecnifibre/tecnifibre-champion-1-3b-1964?c=2372">Tecnifibre Champion&lt;/a></string>
+    <string name="tretorn_swedish_open">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/tretorn/tretorn-swedish-open-4b-18025?c=2373">Tretorn Swedish Open&lt;/a></string>
+    <string name="tretorn_pro_court">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/tretorn/tretorn-pro-court-4b-1990?c=2373">Tretorn Pro Court&lt;/a></string>
+    <string name="tretorn_serie">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/tretorn/tretorn-serie-4b-2037?c=2373">Tretorn Serie+&lt;/a></string>
+    <string name="wilson_roland_garros_all_court">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-roland-garros-all-court-4b-33255?c=2374">Wilson Roland Garros All Court&lt;/a></string>
+    <string name="wilson_roland_garros_clay">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-roland-garros-clay-4b-33254?c=2374">Wilson Roland Garros Clay&lt;/a></string>
+    <string name="wilson_triniti">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-triniti-4b-31802?c=2374">Wilson Triniti&lt;/a></string>
+    <string name="wilson_us_open">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-us-open-4b-2031">Wilson US Open&lt;/a></string>
+    <string name="wilson_tour_premier_clay_court">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-tour-premier-clay-court-4b-29036?c=2374">Wilson Tour Premier Clay Court&lt;/a></string>
+    <string name="wilson_tour_premier_all_court">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/wilson/wilson-tour-premier-all-court-4b-27988?c=2374">Wilson Tour Premier All Court&lt;/a></string>
+    <string name="robin_soderling_all_black">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/robin-soderling/soderling-all-court-black-edition-4b-1962">Robin Soderling All Court Black&lt;/a></string>
+    <string name="robin_soderling_tour_edition">&lt;a href="https://strefatenisa.com.pl/pilki/pilki-seniorskie/robin-soderling/soderling-tour-edition-4b-1963">Robin Soderling Tour Edition&lt;/a></string>
+    <string name="slazenger_championship">&lt;a href="https://pl.sportsdirect.com/slazenger-championship-hydroguard-tennis-balls-745037#colcode=74503713">Slazenger Championship&lt;/a></string>
+    <string name="slazenger_tournament">&lt;a href="https://pl.sportsdirect.com/slazenger-tournament-tennis-balls-745073#colcode=74507390">Slazenger Tournament&lt;/a></string>
+
+</resources>

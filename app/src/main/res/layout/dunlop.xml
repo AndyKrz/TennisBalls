@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintTop_toBottomOf="@+id/dunlopAO"
+            app:layout_constraintStart_toStartOf="parent" android:id="@+id/dunlopFort"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="50dp">
+        <TextView
+                android:text="Wytrzymałość: 8/10 Twardość: 8/10 Ocena: 7.5/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="91dp"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/pilki_tenisowe_dunlop_fort"
+        />
+        <TextView
+                android:text="Dunlop Fort"
+                android:id="@+id/dunlopfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="311dp"
+                android:layout_height="168dp"
+                android:text="Wyselekcjonowane piłki Dunlop Fort All Court Tournament Select są piłkami ciśnieniowymi nadającymi się na wszystkie nawierzchnie kortu. Wzbogacone o technologię HD Core - klasyczny rdzeń piłki Fort został zmodyfikowany i ulepszony poprzez zastosowanie tej technologii, która podnosi wytrzymałość piłki oraz utrzymuje jej właściwości na stałym poziomie przez długi czas."
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintTop_toBottomOf="@+id/dunlopFortClay"
+            app:layout_constraintStart_toStartOf="parent" android:id="@+id/dunlopAO">
+        <TextView
+                android:text="Wytrzymałość: 8/10 Twardość: 8/10 Ocena: 8/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="91dp"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/dunlop_autralian_open_pilki_tenisowe_puszka_1_w_450_h_442_wo_450_ho_443__small"
+        />
+        <TextView
+                android:text="Dunlop AO"
+                android:id="@+id/dunlopAOAO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="297dp"
+                android:layout_height="138dp"
+                android:text="W budowie piłek zostosowano sprawdzony w poprzednich modelach rdzeń HD Core oraz specjalny filc HD Pro Cloth.Takie połączenie gwarantujące doskonałe parametry gry na różnych nawierzchniach kortów tenisowych w połączeniu z wysoką wytrzymałością. Posiadają atest ITF."
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintTop_toBottomOf="@+id/dunlopTour"
+            app:layout_constraintStart_toStartOf="parent" android:id="@+id/dunlopFortClay">
+        <TextView
+                android:text="Wytrzymałość: 8/10 Twardość: 7.5/10 Ocena: 8/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="85dp"
+                android:layout_height="207dp"
+                app:srcCompat="@drawable/pilki_tenisowe_dunlop_fort_clay_court"
+                android:id="@+id/dunlopClay"/>
+        <TextView
+                android:text="Dunlop Fort Clay"
+                android:id="@+id/dunlopFortCl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="297dp"
+                android:layout_height="138dp"
+                android:text="Dunlop Fort Clay Court to oficjalna piłka największych rozgrywek ATP na mączce w Europie , została specjalnie zaprojektowana na nawierzchnie ceglaste. Nowy rdzeń HD Core oraz specjalny filc Clay Guard Cloth to połączenie gwarantujące wysoką wytrzymałość dla najbardziej wymagających zawodników. "
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="415dp"
+            android:layout_height="245dp"
+            app:layout_constraintTop_toBottomOf="@+id/dunlopAtpCard"
+            app:layout_constraintStart_toStartOf="parent" android:id="@+id/dunlopTour">
+        <TextView
+                android:text="Wytrzymałość: 6/10 Twardość: 7/10 Ocena: 7/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="93dp"
+                android:layout_height="221dp"
+                app:srcCompat="@drawable/dunlop_pro"
+                android:id="@+id/imageView2"/>
+        <TextView
+                android:text="@string/dunlop_tour_performance"
+                android:id="@+id/dunlopTourPerf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="248dp"
+                android:layout_height="120dp"
+                android:text='Piłki wykonane są w technologia HD Core, na nowym rdzeniu i z nową jakością filcu, co znacznie poprawiło trwałość oraz "grywalność". Przeznaczone są na wszystkie nawierzchnie.'
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="423dp"
+            android:layout_height="251dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/dunlopAtpCard"
+            app:layout_constraintTop_toTopOf="parent">
+        <TextView
+                android:text="Wytrzymałość: 7/10 Twardość: 7/10 Ocena: 7/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/dunlopATP1"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <TextView
+                android:text="Piłki tenisowe Dunlop ATP. Jest to model najwyższej klasy zawodniczej. Oficjalne piłki cyklu ATP! Oferują najwyższy poziom kontroli, czucia i przewidywalności. Rdzeń HD Core Pro wraz z filcem HD Pro Cloth odpowiadają za długie utrzymywanie parametrów i właściwości. Przeznaczone na wszystkie rodzaje nawierzchni."
+                android:layout_width="266dp"
+                android:layout_height="135dp" android:id="@+id/dunlopATP2"
+                android:layout_margin="100dp"/>
+        <TextView
+                android:text="@string/dunlop_atp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/dunlopATP3"
+                android:layout_marginLeft="100dp" android:textStyle="bold"
+                android:linksClickable="true"
+
+        />
+        <ImageView
+                android:layout_width="73dp"
+                android:layout_height="226dp"
+                app:srcCompat="@drawable/pilki_tenisowe_dunlop_atp" android:id="@+id/dunlopATPImg"
+                android:contentDescription="TODO"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

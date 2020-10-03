@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.company.TretornFragment">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintTop_toBottomOf="@id/tretornPro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="55dp" android:id="@+id/tretornSwedish">
+        <TextView
+                android:text="Wytrzymałość: 7/10 Twardość: 8/10 Ocena: 7/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="91dp"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/tretorns_swedish_open"
+        />
+        <TextView
+                android:text="@string/tretorn_swedish_open"
+                android:id="@+id/tretornSO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="311dp"
+                android:layout_height="166dp"
+                android:text="Trójwarstwowa membrana Tri-Tec oraz dodatkowa membrana z plastycznego elastomeru umieszczona między kauczukowym rdzeniem i filcem minimalizują utratę ciśnienia. Dzięki temu piłki zachowuja znacznie dłużej swoje parametry w porównaniu do standardowych piłek ciśnieniowych, czego efektem jest większa wytrzymałość i lepsza grywalność."
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintTop_toBottomOf="@id/tretornSerie"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/tretornPro"
+    >
+        <TextView
+                android:text="Wytrzymałość: 5/10 Twardość: 7/10 Ocena: 6/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" android:id="@+id/textView9"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="91dp"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/tretorn_pro_court"
+        />
+        <TextView
+                android:text="@string/tretorn_pro_court"
+                android:id="@+id/tretornPC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="311dp"
+                android:layout_height="168dp"
+                android:text="Wysokiej jakości piłki tenisowe Tretorn Pro Court. Wysoka responsywność, wytrzymały rdzeń i fenomenalne czucie. 45% wełny na zewnątrz piłki dla lepszego czucia i komfortu gry.  Piłka na wszystkie nawierzchnie. Posiada atest ITF. W opakowaniu znajdują się 4 piłki."
+                android:layout_margin="100dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/tretornSerie">
+        <TextView
+                android:text="Wytrzymałość: 7/10 Twardość: 8/10 Ocena: 7.5/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="91dp"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/tretorn_serie"
+        />
+        <TextView
+                android:text="@string/tretorn_serie"
+                android:id="@+id/tretornSer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="306dp"
+                android:layout_height="141dp"
+                android:layout_margin="100dp"
+                android:text="Tretorn SERIE + to najwyższej jakości piłka skonstruowana jest w unikalnej technologii TRI-TEC. Zatwierdzone przez ITF.   Trzyczęściowa konstrukcja składa się ze specjalnego, cienkiego gumowego rdzenia, membrany łączącej oraz nowoczesnego, miękkiego filcu firmy Milliken. "/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

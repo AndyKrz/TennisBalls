@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="eu.andykrzemien.tennisballsapp.ui.home.HomeFragment"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_home">
+        <action android:id="@+id/action_navigation_home_to_navigation_notifications"
+                app:destination="@id/navigation_notifications"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_dunlop"
+                app:destination="@id/navigation_dunlop"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_wilson"
+                app:destination="@id/navigation_wilson"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_slazenger"
+                app:destination="@id/navigation_slazenger"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_tretorn"
+                app:destination="@id/navigation_tretorn"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_head"
+                app:destination="@id/navigation_head"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_babolat"
+                app:destination="@id/navigation_babolat"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_tecnifibre"
+                app:destination="@id/navigation_tecnifibre"/>
+        <action android:id="@+id/action_navigation_home_to_navigation_robinsoderling"
+                app:destination="@id/navigation_robinsoderling"/>
+
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/navigation_dashboard"
+            android:name="eu.andykrzemien.tennisballsapp.ui.dashboard.DashboardFragment"
+            android:label="@string/title_dashboard"
+            tools:layout="@layout/fragment_dashboard"/>
+
+    <fragment
+            android:id="@+id/navigation_notifications"
+            android:name="eu.andykrzemien.tennisballsapp.ui.notifications.NotificationsFragment"
+            android:label="@string/title_notifications"
+            tools:layout="@layout/fragment_notifications"/>
+    <fragment
+            android:id="@+id/navigation_dunlop"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.DunlopFragment"
+            android:label="@string/title_Dunlop"
+            tools:layout="@layout/dunlop"/>
+    <fragment
+            android:id="@+id/navigation_wilson"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.WilsonFragment"
+            android:label="@string/title_Wilson"
+            tools:layout="@layout/wilson"/>
+    <fragment
+            android:id="@+id/navigation_slazenger"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.SlazengerFragment"
+            android:label="@string/title_Slazenger"
+            tools:layout="@layout/slazenger"/>
+    <fragment
+            android:id="@+id/navigation_tretorn"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.TretornFragment"
+            android:label="@string/title_Tretorn"
+            tools:layout="@layout/tretorn"/>
+    <fragment
+            android:id="@+id/navigation_head"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.HeadFragment"
+            android:label="@string/title_Head"
+            tools:layout="@layout/head"/>
+    <fragment
+            android:id="@+id/navigation_babolat"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.BabolatFragment"
+            android:label="@string/title_Babolat"
+            tools:layout="@layout/babolat"/>
+    <fragment
+            android:id="@+id/navigation_tecnifibre"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.TecnifibreFragment"
+            android:label="@string/title_Tecnifibre"
+            tools:layout="@layout/tecnifibre"/>
+    <fragment
+            android:id="@+id/navigation_robinsoderling"
+            android:name="eu.andykrzemien.tennisballsapp.ui.company.RobinSoderlingFragment"
+            android:label="@string/title_Robin_Soderling"
+            tools:layout="@layout/robinsoderling"/>
+</navigation>

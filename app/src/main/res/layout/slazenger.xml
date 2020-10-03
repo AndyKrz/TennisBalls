@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.company.SlazengerFragment">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            tools:layout_constraintTop_toBottomOf="@id/slazengerWimbledon"
+            app:layout_constraintTop_toBottomOf="@+id/slazengerWimbledon"
+            android:id="@+id/slazengerTournament" tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+                android:text="Wytrzymałość: 6/10 Twardość: 6/10 Ocena: 6/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="99dp"
+                android:layout_height="240dp"
+                app:srcCompat="@drawable/slazenger_tour"
+        />
+        <TextView
+                android:text="@string/slazenger_tournament"
+                android:id="@+id/slazenger_tourr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="306dp"
+                android:layout_height="141dp"
+                android:layout_margin="100dp"
+                android:text="Piłki tenisowe Slazenger TOURNAMENT
+Piłki ciśnieniowe klasy premium - na wszystkie nawierzchnie.
+Jedne z najbardziej renomowanych i trwałych piłek na rynku.
+Wykonane z najwyższej jakości filcu i gumy.
+Zatwierdzone przez ITF."/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+            android:text="Slazenger Championship"
+            android:id="@+id/slazenger_champ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" tools:ignore="MissingConstraints"/>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            tools:layout_constraintTop_toBottomOf="@id/slazengerTournament"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/Slazenger_Championship"
+            app:layout_constraintTop_toBottomOf="@+id/slazengerTournament"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="50dp">
+        <TextView
+                android:text="Wytrzymałość: 6/10 Twardość: 6/10 Ocena: 6/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="99dp"
+                android:layout_height="240dp"
+                app:srcCompat="@drawable/slazenger_championship"
+        />
+        <TextView
+                android:text="@string/slazenger_championship"
+                android:id="@+id/slazenger_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="306dp"
+                android:layout_height="141dp"
+                android:layout_margin="100dp"
+                android:text="Piłka ciśnieniowa, produkowana z najlepszej jakości filcu i gumy. Doskonałe połączenie dobrej jakości i atrakcyjnej ceny. Technologia HI VIS zapewnia lepszą widoczność. Certyfikat ITF - Międzynarodowej Federacji Tenisowej."/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="417dp"
+            android:layout_height="254dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/slazengerWimbledon"
+            app:layout_constraintBottom_toTopOf="@+id/slazengerTournament">
+        <TextView
+                android:text="Wytrzymałość: 8/10 Twardość: 8/10 Ocena: 8/10"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:layout_marginTop="30dp"/>
+        <ImageView
+                android:layout_width="99dp"
+                android:layout_height="240dp"
+                app:srcCompat="@drawable/slazenger_wimbledon"
+        />
+        <TextView
+                android:text="@string/slazenger_wimbledon"
+                android:id="@+id/slazenger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" android:textStyle="bold"/>
+        <TextView
+                android:layout_width="306dp"
+                android:layout_height="141dp"
+                android:layout_margin="100dp"
+                android:text="Slazenger Wimbledon od lat jedne z najlepszych piłek tenisowych. Lepiej widoczne o ok. 10% w porównaniu z innymi piłkami. Oferują najlepszą jakość filcu i mieszanki gumowej, co pozwala na najbardziej kontrolowaną i komfortową grę. Piłki tenisowe Slazenger Wimbledon polecane są do gry na szybkich kortach i w hali. "/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
