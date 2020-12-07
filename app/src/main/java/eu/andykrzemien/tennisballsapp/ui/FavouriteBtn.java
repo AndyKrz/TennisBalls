@@ -20,7 +20,6 @@ public class FavouriteBtn extends Activity {
     setContentView(R.layout.activity_main);
 
       toggleButton = findViewById(R.id.myToggleButton);
-//      toggleButton.setChecked(false);
       toggleButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_off));
       toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
         @Override

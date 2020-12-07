@@ -16,11 +16,10 @@ import androidx.lifecycle.ViewModelProviders;
 
 public class DashboardFragment extends Fragment {
 
-  private DashboardViewModel dashboardViewModel;
-
   public View onCreateView(@NonNull LayoutInflater inflater,
                            ViewGroup container, Bundle savedInstanceState) {
-    dashboardViewModel =
+    DashboardViewModel
+        dashboardViewModel =
         ViewModelProviders.of(this).get(DashboardViewModel.class);
     View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
     final TextView textView = root.findViewById(R.id.text_dashboard);
@@ -31,16 +30,6 @@ public class DashboardFragment extends Fragment {
       }
     });
     return root;
-
-//    findViewById(R.id.babolatTC).setOnClickListener(new View.OnClickListener() {
-//      public void OnClick(View view){
-//        if(view.isSelected()) {
-//          markAsFavourite(toggleButton);
-//        }else {
-//          removeFromFavourites(toggleButton);
-//        }
-//      }
-//    });
 
   }
 
